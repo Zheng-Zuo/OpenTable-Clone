@@ -33,7 +33,7 @@ export default function useAuth() {
 
         try {
             const response = await axios.post(
-                'http://localhost:3000/api/auth/signin',
+                '/api/auth/signin',
                 { email, password }
             )
             setAuthState({
@@ -65,7 +65,7 @@ export default function useAuth() {
 
         try {
             const response = await axios.post(
-                'http://localhost:3000/api/auth/signup',
+                '/api/auth/signup',
                 { email, password, firstName, lastName, city, phone }
             )
             setAuthState({
