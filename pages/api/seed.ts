@@ -87,7 +87,7 @@ export default async function handler(
             //
             {
                 name: "Mezcal",
-                main_image: "https://resizer.otstatic.com/v2/photos/xlarge/2/46887206.webp",
+                main_image: "https://resizer.otstatic.com/v2/photos/xlarge/2/46887206.jpg",
                 price: PRICE.REGULAR,
                 description: "Located in Downtown San Jose, Mezcal boasts one of the most distinctive dining rooms in San Jose. The brick exterior, metal work and indigenous Mexican motifs, sets the restaurant apart from its neighbors. Although the design is urban upscale, there is nothing watered down about the menu. Mezcal proudly serves authentic Oaxacan regional cuisine utilizing family recipes passed on from previous generations.",
                 images: [
