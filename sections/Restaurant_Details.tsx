@@ -12,7 +12,7 @@ interface Props {
 
 const Restaurant_Details = ({ restaurant }: Props) => {
     return (
-        <section className='flex m-auto w-2/3 justify-between items-start -mt-11'>
+        <section className='flex m-auto w-[80%] justify-between items-start -mt-11'>
 
             <div className='bg-white w-[60%] rounded p-3 shadow'>
 

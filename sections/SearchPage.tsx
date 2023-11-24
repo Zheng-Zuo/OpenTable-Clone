@@ -8,16 +8,6 @@ import { useState } from "react";
 export default async function SearchPage({ searchParams }: { searchParams: { query: string | undefined } }) {
   const [filters, setFilters] = useState<Filters>({ locations: [], cuisines: [], prices: [] })
 
-  const handleFilterChange = (key: keyof Filters, value: string) => {
-    setFilters(prevFilters => ({
-      ...prevFilters,
-      [key]: prevFilters[key].includes(value) ?
-        prevFilters[key].filter((v) => v !== value) :
-        [...prevFilters[key], value]
-    })
-    )
-  }
-
   const { restaurants, noItemFound } =
     await getFilteredRestaurants(searchParams.query, filters)
 
@@ -31,7 +21,7 @@ export default async function SearchPage({ searchParams }: { searchParams: { que
       <div className="flex py-4 m-auto w-2/3 justify-between items-start gap-5">
 
         <div className="w-1/5 mr-4 sticky top-5">
-          <SearchCard cuisines={cuisines} locations={locations} onFilterChange={handleFilterChange} />
+          <SearchCard cuisines={cuisines} locations={locations} />
         </div>
 
         <div className="w-5/6 ml-4">

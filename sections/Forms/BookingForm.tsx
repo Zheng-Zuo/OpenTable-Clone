@@ -86,7 +86,8 @@ const BookingForm = ({
                     <FormItem>
                       <FormControl>
                         <Input
-                          placeholder="First name" {...field}
+                          placeholder="First name"
+                          {...field}
                           className="border rounded p-3 w-80"
                         />
                       </FormControl>

@@ -8,7 +8,7 @@ interface Props {
 const ReviewCard = ({ reviews }: Props) => {
     return (
         <div id="review">
-            <h1 className="font-bold text-3xl max-sm:text-2xl mt-10 mb-7 border-b pb-5">
+            <h1 className="font-bold text-2xl max-sm:text-2xl mt-10 mb-7 border-b pb-5">
                 What {reviews.length} people {reviews.length > 1 ? "are" : "is"} saying
             </h1>
             <div>
@@ -18,7 +18,7 @@ const ReviewCard = ({ reviews }: Props) => {
 
                             <div className="w-1/6 flex flex-col items-center">
                                 <div className="rounded-full bg-blue-400 w-16 h-16 flex items-center justify-center">
-                                    <h2 className="text-white text-2xl">
+                                    <h2 className="text-white text-lg">
                                         {review.first_name[0].toUpperCase()}
                                         {review.last_name[0].toUpperCase()}
                                     </h2>
@@ -32,7 +32,7 @@ const ReviewCard = ({ reviews }: Props) => {
                                     <p className="text-reg ml-3">{review.rating}</p>
                                 </div>
                                 <div className="mt-5">
-                                    <p className="text-lg font-light">
+                                    <p className="text-reg font-light">
                                         {review.text}
                                     </p>
                                 </div>

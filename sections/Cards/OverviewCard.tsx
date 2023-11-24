@@ -15,7 +15,7 @@ const OverviewCard = (
     return (
         <div id="overview">
             <div className='mt-4 border-b border-solid border-gray-300 pb-6'>
-                <h1 className='font-bold text-6xl max-xl:text-4xl max-sm:text-2xl'>{name}</h1>
+                <h1 className='font-bold text-5xl max-xl:text-4xl max-sm:text-2xl'>{name}</h1>
             </div>
 
             <div className="flex items-end">
@@ -29,7 +29,7 @@ const OverviewCard = (
             </div>
 
             <div className="mt-4">
-                <p className="text-lg font-light">
+                <p className="text-reg font-light">
                     {description}
                 </p>
             </div>
