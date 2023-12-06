@@ -8,6 +8,7 @@ const Header_Home = () => {
                     <h1 className='text-white text-5xl max-lg:text-4xl max-sm:text-3xl font-bold mb-8'>
                         Find Your table for any occasion
                     </h1>
+                    <p className='text-white text-sm font-bold'>Note: this is a demo project, not a real website</p>
                     <SearchBar />
                 </div>
             </div>

@@ -12,13 +12,14 @@ const ImageCard = ({ images }: Props) => {
             </h1>
             <div className="flex flex-wrap justify-center items-start gap-4">
                 {images.map((image, id) => (
-                    <Image
-                        key={id}
-                        src={image}
-                        alt="restaurant_image"
-                        width={224}
-                        height={176}
-                    />
+                    <div key={id} className="relative w-44 h-44">
+                        <Image
+                            src={image}
+                            alt="restaurant_image"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                 ))}
             </div>
         </div>

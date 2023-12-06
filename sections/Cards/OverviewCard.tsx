@@ -30,6 +30,8 @@ const OverviewCard = (
 
             <div className="mt-4">
                 <p className="text-reg font-light">
+                    Note: This is a demo website, it's not a real restaurant.
+                    <br />
                     {description}
                 </p>
             </div>

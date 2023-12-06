@@ -123,9 +123,10 @@ export default function AuthModal({ isSignIn }: { isSignIn: boolean }) {
                                 <h2 className='text-2xl font-light text-center'>
                                     {renderContent(
                                         "Log Into Your Account",
-                                        "Create Your OpenTable Account"
+                                        "Create Your ReserveSeat Account",
                                     )}
                                 </h2>
+                                <h2 className='text-sm font-light text-center'>This is a demo site, please don't use your real credentials</h2>
                                 <AuthModalInputs
                                     inputs={inputs}
                                     handleChangeInput={handleChangeInput}

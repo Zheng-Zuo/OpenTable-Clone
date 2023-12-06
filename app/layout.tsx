@@ -9,10 +9,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: "OpenTable",
-    template: '%s | Opentable'
+    default: "ReserveSeat",
+    template: '%s | ReserveSeat'
   },
-  description: 'This is an OpenTable clone',
+  description: 'This is an Opensouced demo of a restaurant reservation website',
   icons: {
     icon: '/favicon.ico',
   }

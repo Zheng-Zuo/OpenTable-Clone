@@ -31,8 +31,8 @@ const RestaurantCard = ({ restaurant }: Props) => {
           <Image
             src={restaurant.main_image}
             alt="restaurant_image"
-            width={500}
-            height={500}
+            fill
+            className="object-cover"
           />
         </Link>
       </div>

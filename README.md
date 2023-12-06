@@ -1,11 +1,11 @@
-# Opentable Clone
+# Opentable Clone - Reserve Seat
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Zheng-Zuo/OpenTable-Clone)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Zheng-Zuo/OpenTable-Clone/pulls)
 
-This Opentable clone replicates the popular restaurant reservation platform. It features a fully-functional backend booking and reservation system, integrated JWT authentication and authorization, as well as advanced search and filter functionalities.
+This ReserveSeat replicates the popular restaurant reservation platform. It features a fully-functional backend booking and reservation system, integrated JWT authentication and authorization, as well as advanced search and filtering functionalities.
 
-Check out the **[Live Demo here](http://opentable.momocoder.com)** *(Note: This project is not optimized for mobile, please view it on Desktop for best user experience)
+Check out the **[Live Demo here](http://reserveseat.momocoder.com)** *(Note: This project is not optimized for mobile, please view it on Desktop for best user experience)
 
 ## Quick Start
 
@@ -49,7 +49,7 @@ To get this project up and running:
 
 ## Contribute
 
-We welcome all contributors who are interested in improving the opentable clone. Feel free to submit a pull request.
+We welcome all contributors who are interested in improving ReserveSeat. Feel free to submit a pull request.
 
 ## License
 
